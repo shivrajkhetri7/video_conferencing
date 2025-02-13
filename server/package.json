@@ -1,0 +1,35 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "\"this is an socket server for web conference\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivrajkhetri7/video_conferencing.git"
+  },
+  "keywords": [
+    "Videos",
+    "call",
+    "Face",
+    "Time"
+  ],
+  "author": "shivraj khetri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivrajkhetri7/video_conferencing/issues"
+  },
+  "homepage": "https://github.com/shivrajkhetri7/video_conferencing#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "install": "^0.13.0",
+    "nodemon": "^3.1.9",
+    "npm": "^10.9.2",
+    "socket.io": "^4.8.1"
+  }
+}
